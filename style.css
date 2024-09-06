@@ -1,0 +1,72 @@
+.pkmContainerList{
+    flex-wrap: wrap;
+}
+.pkmContainer{
+ position: relative;
+ flex: 0 0 33.33%;
+}
+.boxPkm{
+    background:rgba(195, 248, 231, 0.418);
+    padding: 0.5rem 0.5rem;    
+    font-size: 1rem;         
+    border:solid 3px #917e5757;
+    border-top-left-radius: 155px 15px;
+    border-top-right-radius: 15px 125px;
+    border-bottom-right-radius: 125px 15px;
+    border-bottom-left-radius:15px 155px;
+}
+
+.pkmClassOverlay{
+    background-color: rgba(204, 79, 48, 0.603);
+    z-index: 9;
+    /* min-height: 100% ;
+    margin: 0px;  */
+    opacity: 0.7;   
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3vw;
+    font-weight: bolder;
+    border:solid 3px #917e5757;
+    border-top-left-radius: 155px 15px;
+    border-top-right-radius: 15px 125px;
+    border-bottom-right-radius: 125px 15px;
+    border-bottom-left-radius:15px 155px;
+  }
+
+
+.boxPkm:hover{
+   box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+
+.btnPkm{
+    min-width: 35%;
+    margin: 4%;
+}
+
+table{
+    border: 1px solid;
+    border: 1px solid #1a1919;
+}
+
+th{
+    background-color: #04AA6D;
+  color: white;
+}
+
+th, td{
+padding: 5px;
+text-align: center;
+border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: rgb(250, 177, 150);
+}
+
